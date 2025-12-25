@@ -3,3 +3,33 @@ body {
 	color: black;
 	font-family: Verdana;
 }
+.nav-list {
+	list-style-type: none;
+}
+.nav-list li {
+	background: url(ItemBackground.png);
+	padding: 4px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.nav-list li a {
+	color: white;
+	text-decoration: none;
+}
+.hgrid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.vgrid {
+	display: auto;
+}
+.main-area {
+	background: url(ItemBackground.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	aspect-ratio: 1 / 1;
+	padding: 5%;
+	color: white;
+}
