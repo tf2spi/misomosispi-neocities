@@ -1,13 +1,15 @@
-body {
-	background-color: white;
+.main-body {
 	color: black;
 	font-family: Verdana;
+	background: url(images/BodyBackground.jpg);
+	background-size: 100% 100%;
+	padding: 10% 5%;
 }
 .nav-list {
 	list-style-type: none;
 }
 .nav-list li {
-	background: url(ItemBackground.png);
+	background: url(images/ItemBackground.png);
 	padding: 4px;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -26,7 +28,7 @@ body {
 	display: auto;
 }
 .main-area {
-	background: url(ItemBackground.png);
+	background: url(images/ItemBackground.png);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	aspect-ratio: 1 / 1;
